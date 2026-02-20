@@ -113,6 +113,6 @@ curl -u "CLIENT_ID:CLIENT_SECRET" "http://localhost:8007/sync-persons"
 
 ---
 
-## Lizenz / Hinweise
+## Lizenz
 
-Projekt-intern. Personio API Nutzung gemäß [Personio Developer](https://developer.personio.de/) und den geltenden Vertragsbedingungen.
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE)
