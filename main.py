@@ -3,9 +3,9 @@ from typing import Any
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 
-from src.PersonioClient.factory import create_personio_client
-from src.PersonioSyncService.factory import create_personio_sync_service
-from src.PersonioSyncService.custom_serializer import to_dict
+from PersonioClient.factory import create_personio_client
+from PersonioSyncService.factory import create_personio_sync_service
+from PersonioSyncService.custom_serializer import to_dict
 
 app = FastAPI(
     root_path="/microservice/personio",
